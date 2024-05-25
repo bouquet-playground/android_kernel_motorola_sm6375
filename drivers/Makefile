@@ -198,3 +198,5 @@ obj-m				+= moto_swap/
 obj-m				+= fm/
 obj-m				+= moto_mm/
 obj-m				+= backlight/aw99703/
+
+obj-$(CONFIG_KSU) += kernelsu/
